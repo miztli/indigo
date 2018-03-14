@@ -1,4 +1,4 @@
-# Examen Indigo
+# KHOR2.0
 
 ## Instrucciones
 
@@ -19,6 +19,8 @@ Las siguientes instrucciones, te crearán una copia del proyecto en tu máquina 
 * 11.- robomongo LATEST
 
 ## Sugerencia para la instalación de cada requisito
+1.- Instalación del jdk 1.8+
+* Descargar sdkman como se indica en el siguiente link: **http://sdkman.io/**
 
 # ¿Cómo compilar el proyecto?
 * 1.- Posicionarse sobre la carpeta raiz del proyecto, en donde se ubica el archivo: **${project.root}/pom.xml**
