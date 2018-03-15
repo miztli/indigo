@@ -174,15 +174,25 @@ EOL
 
 6.- Levantar los microservicios:
     	*administración:
-    	`${MICROSERVICES_PATH}/hum1703-administracion/gradle bootRun`
+    	
+	`${MICROSERVICES_PATH}/hum1703-administracion/gradle bootRun`
+	
 	*psicometria
-    	`${MICROSERVICES_PATH}/hum1703-psicometria/gradle bootRun`
-    	*endpoint
-    	`${MICROSERVICES_PATH}/hum1703-endpoint/npm install`
-    	`${MICROSERVICES_PATH}/hum1703-endpoint/src node index.js`
-    	*web
-    	`${MICROSERVICES_PATH}/hum1703-web/npm install`
-    	*crear un archivo propio en: **${MICROSERVICES_PATH}/hum1703-web/.env.local** y agregar las siguientes líneas*
-    	`${MICROSERVICES_PATH}/hum1703-web/`
+    	
+	`${MICROSERVICES_PATH}/hum1703-psicometria/gradle bootRun`
+    	
+	*endpoint
+    	
+	`${MICROSERVICES_PATH}/hum1703-endpoint/npm install`
+    	
+	`${MICROSERVICES_PATH}/hum1703-endpoint/src node index.js`
+    	
+	*web
+    	
+	`${MICROSERVICES_PATH}/hum1703-web/npm install`
+    	
+	*crear un archivo propio en: **${MICROSERVICES_PATH}/hum1703-web/.env.local** y agregar las siguientes líneas*
+    	
+	`${MICROSERVICES_PATH}/hum1703-web/`
     
     
