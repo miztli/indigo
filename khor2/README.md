@@ -193,12 +193,12 @@ EOL
     
    * crear un archivo propio en: **${MICROSERVICES_PATH}/hum1703-web/.env.local** y agregar las siguientes líneas*
    
-    
+    ```
         NODE_PATH=src/        
         API_SERVER=http://localhost:4000        
         NOTIFICATION_SERVER=http://localhost:5000        
         ENABLE_KHOR1_FEATURES=false        
         DEFAULT_LANGUAGE=es-lat
-    
+    ```
     
     
