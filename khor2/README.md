@@ -173,20 +173,26 @@ EOL
 * Ejecutar: `psql -h localhost -p 5432 -U postgres`
 
 6.- Levantar los microservicios:
-    	* administración:
+    
+   * administración:
+   
 	`${MICROSERVICES_PATH}/hum1703-administracion/gradle bootRun`
 	
-	* psicometria
+   * psicometria
+	
 	`${MICROSERVICES_PATH}/hum1703-psicometria/gradle bootRun`
     	
-	* endpoint	
+   * endpoint	
+	
 	`${MICROSERVICES_PATH}/hum1703-endpoint/npm install`
 	`${MICROSERVICES_PATH}/hum1703-endpoint/src node index.js`
     	
-	* web
+   * web
+	
 	`${MICROSERVICES_PATH}/hum1703-web/npm install`
     
-	* crear un archivo propio en: **${MICROSERVICES_PATH}/hum1703-web/.env.local** y agregar las siguientes líneas*
-    	`${MICROSERVICES_PATH}/hum1703-web/`
+   * crear un archivo propio en: **${MICROSERVICES_PATH}/hum1703-web/.env.local** y agregar las siguientes líneas*
+   
+    `${MICROSERVICES_PATH}/hum1703-web/`
     
     
