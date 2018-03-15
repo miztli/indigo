@@ -176,29 +176,29 @@ EOL
     
    * administración:
    
-	`${MICROSERVICES_PATH}/hum1703-administracion/gradle bootRun`
+	${MICROSERVICES_PATH}/hum1703-administracion/gradle bootRun
 	
    * psicometria
 	
-	`${MICROSERVICES_PATH}/hum1703-psicometria/gradle bootRun`
+	${MICROSERVICES_PATH}/hum1703-psicometria/gradle bootRun
     	
    * endpoint	
 	
-	`${MICROSERVICES_PATH}/hum1703-endpoint/npm install`
-	`${MICROSERVICES_PATH}/hum1703-endpoint/src node index.js`
+	${MICROSERVICES_PATH}/hum1703-endpoint/npm install
+	${MICROSERVICES_PATH}/hum1703-endpoint/src node index.js
     	
    * web
 	
-	`${MICROSERVICES_PATH}/hum1703-web/npm install`
+	${MICROSERVICES_PATH}/hum1703-web/npm install
     
    * crear un archivo propio en: **${MICROSERVICES_PATH}/hum1703-web/.env.local** y agregar las siguientes líneas*
    
-    ```
+    
         NODE_PATH=src/        
         API_SERVER=http://localhost:4000        
         NOTIFICATION_SERVER=http://localhost:5000        
         ENABLE_KHOR1_FEATURES=false        
         DEFAULT_LANGUAGE=es-lat
-    ```
+    
     
     
