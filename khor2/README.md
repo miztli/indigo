@@ -173,6 +173,12 @@ EOL
 * Ejecutar: `psql -h localhost -p 5432 -U postgres`
 
 6.- Levantar los microservicios:
+
+   * topic-monitor (utilidad para creación de tópicos en kafka)
+    
+    ${MICROSERVICES_PATH}/hum1703-topicmonitor/npm install
+    ${MICROSERVICES_PATH}/hum1703-topicmonitor/npm run dev
+    
     
    * administración:
    
@@ -180,16 +186,22 @@ EOL
 	
    * psicometria
 	
-	${MICROSERVICES_PATH}/hum1703-psicometria/gradle bootRun
-    	
+   *Insertar registros a la base de datos la primera vez con:* `node seeder.js`
+    
+	${MICROSERVICES_PATH}/hum1703-psicometria/npm install
+    ${MICROSERVICES_PATH}/hum1703-psicometria/npm run dev
+   
+   *NOTA: Puede haber fallas al momento de levantar el microservicio por falta de un tópico en kafka, si esto ocurre, ejecute la utilidad **topic-monitor** * 
+    
    * endpoint	
 	
 	${MICROSERVICES_PATH}/hum1703-endpoint/npm install
-	${MICROSERVICES_PATH}/hum1703-endpoint/src node index.js
+	${MICROSERVICES_PATH}/hum1703-endpoint/npm run dev
     	
    * web
 	
 	${MICROSERVICES_PATH}/hum1703-web/npm install
+	${MICROSERVICES_PATH}/hum1703-web/npm start
     
    * crear un archivo propio en: **${MICROSERVICES_PATH}/hum1703-web/.env.local** y agregar las siguientes líneas*
    
